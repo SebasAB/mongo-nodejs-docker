@@ -47,6 +47,67 @@ project-root/
 
 - Docker
 - Docker Compose
+- Node
+- Git
+- NPM
+- Curl o Postman para probar la API.
+
+Para comprobar que se tenga docker installado correr:
+```bash
+docker --version
+```
+
+Para comprobar que docker-compose esté instalado:
+```bash
+docker-compose --version
+```
+
+Para comprobar Git:
+```bash
+git --version
+```
+
+Y para comprobar Node y NPM:
+```bash
+node --version
+npm --version
+```
+
+### Instalar Curl para probar la API:
+En Windows:
+``` bash
+Add-WindowsCapability -Online -Name "Tools.Curl~~~~0.0.1.0"
+```
+
+En macOS:
+```bash
+brew install curl
+```
+
+Linux - Ubuntu/Debian:
+```bash
+sudo apt-get update
+sudo apt-get install curl
+```
+
+Linux - CenOS/RHEL:
+```bash
+sudo yum update
+sudo yum install curl
+```
+
+Linux - Fedora:
+```bash
+sudo dnf install curl
+```
+
+Linux - Arch:
+```bash
+sudo pacman -Syu curl
+```
+
+### Instalación de prerrequisitos
+
 
 ### Instrucciones de Instalación
 
